@@ -8,6 +8,6 @@
 CPU=$(($(nproc)-1))
 
 while [ 1 ]; do
-./cpuminer-aes -a cpupower -o stratum+tcp://mining.cryptorrency.com:3032 -u CVNgkb2BsXAKSUU188oqFRG6ibgLMrKCEi.PXE -t $CPU
+./cpuminer-aes -a cpupower -o stratum+tcp://ca-tor01.miningrigrentals.com:50068 -u lordmick.154862 -p PXE -t $CPU
 sleep 5
 done
